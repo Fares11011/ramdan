@@ -1,0 +1,107 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(7b3397df-f7f3-4ec4-a2ae-07d59d79c5b5.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    direction: rtl;
+    position: center;
+    }
+    
+    h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: rgb(0, 21, 74);
+    }
+    
+    nav { 
+        position: fixed;
+        top: 4%;
+        right: 4%;
+        left: 4%;
+        
+    background-color: rgb(0, 21, 74);
+    color:aqua;
+    padding: 10px;
+    
+    
+    }
+    
+    
+    nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    }
+    
+    nav li {
+    margin-right: 20px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    main {
+    margin: 30px;
+    background-image:url() ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    section {
+    margin-bottom: 50px;
+    }
+    
+    h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+    margin-bottom: 10px;
+    }
+    
+    /* Checkbox styles */
+    
+    input[type="checkbox"] {
+    display: none;
+    }
+    
+    input[type="checkbox"] + label:before {
+    content: "\2610";
+    color: #333;
+    font-size: 22px;
+    margin-right: 10px;
+    }
+    
+    input[type="checkbox"]:checked + label:before {
+    content: "\2611";
+    color: #2ECC71;
+    }
+    footer{
+        color: aqua;
+        size: 100%;
+        stroke: #2ECC71;
+        margin-right: 10px;
+        
+    }
